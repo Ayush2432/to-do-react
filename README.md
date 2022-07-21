@@ -20,6 +20,6 @@ run/
 
 ### `npm run build`
 
-followed by/
+followed by\
 
 ### `serve -s build `
