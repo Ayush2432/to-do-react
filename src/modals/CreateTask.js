@@ -33,7 +33,9 @@ const [description, setDescription] = useState('');
     let taskObj = {}
     taskObj["Name"] = taskName
     taskObj["Description"] = description
-    save(taskObj) 
+    if (taskObj.Name){    //Only save task if the pop up is not empty
+      save(taskObj)
+    }
   }  
    
  /*now we have to do that create  a function a cardmust be created in parent component
